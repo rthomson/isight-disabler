@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<true/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures a password for profile removal</string>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.BFE39E29-4FB8-476F-97EE-138D7BC5706D</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>BFE39E29-4FB8-476F-97EE-138D7BC5706D</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.EF5BD4A4-7E75-4801-A886-3969B10715DE</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>76B4F81E-19D6-4C5C-9B5E-B8EAC242F892</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowCamera</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds a restriction profile to OS X that disables access to the camera drivers.</string>
+	<key>PayloadDisplayName</key>
+	<string>Camera Disabler</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.camera-disabler</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4F968C50-C3F2-4E6C-89A9-399087598CE6</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
